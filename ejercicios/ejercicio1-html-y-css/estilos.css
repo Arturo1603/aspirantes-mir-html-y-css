@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    Align-items: center;
+}
+
+h2 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.card {
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,45,199,0.7988329120710784) 100%); 
+    box-shadow: 7px 7px 40px;
+    background-color: green;
+    width: 300px;
+    height: 350px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+    
+}
+
+label {
+    color: white;
+
+}
+
+.camposEntrada {
+    padding: 7px;
+    width: 100%;
+    margin-bottom: 15px;
+    
+}
+
+button {
+    float: right;
+    padding: 5px 15px;
+    margin-top: 10px;
+}
+@media only screen and (max-width: 500px) {
+    .card{
+        width: 100%;
+    }
+}  
